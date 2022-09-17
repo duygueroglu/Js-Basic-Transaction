@@ -1,0 +1,61 @@
+*{
+    font-family: "Poppins";
+    font-size: 16px;
+}
+body {
+    background-color: rgb(153, 98, 152);
+  }
+
+.container {
+    width: 1500px;
+    height: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left, .center, .right{
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(150, 137, 162);
+    width: 400px;
+    height: 650px;
+}
+
+.addUserForm__form{
+    display: flex;
+    flex-direction: column;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    margin: 0;
+    padding: 0;
+}
+
+.userListUser__li{
+    justify-content: space-between;
+}
+
+.userListUser__text span{
+    margin-right: 5px;
+}
+
+.userListUser__li div{
+}
+
+/*
+.col-md-4 {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(150, 137, 162);
+    width: 400px;
+    height: 650px;
+  }
+*/
